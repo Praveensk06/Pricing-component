@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+
+*,
+*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 16px;
+}
+:root{
+--Soft-Cyan: hsl(174, 77%, 80%);
+--Strong-Cyan: hsl(174, 86%, 45%);
+--Light-Grayish-Red: hsl(14, 92%, 95%);
+--Light-Red: hsl(15, 100%, 70%);
+--Pale-Blue: hsl(226, 100%, 87%);
+
+}
+img{
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style:
+}
+
+
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url(/images/bg-pattern.svg);
+  background-repeat: no-repeat;
+}
+
+.header{
+  margin-top: 4rem;
+  padding: 40px;
+  text-align: center;
+  background-image: url(/images/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.para{
+  font-size: 12px;
+  color: rgb(97, 98, 98);
+}
+.card{
+  width: 24rem;
+  min-height: 40vh;
+  background-color:#ffffff;
+  margin-top: 3rem;
+  padding:2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  
+}
+.number-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+
+
+}
+.dollar{
+  font-size:2rem;
+  font-weight: 700;
+  margin-left: 4rem;
+}
+.month{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+
+.range{
+  width: 20rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.billing-container{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 1rem;
+  font-size: 12px;
+  
+}
+
+.checkbox{
+  cursor: pointer;
+}
+
+hr{
+  margin-top: 2.5rem;
+}
+
+.second-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.btn{
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  background-color:rgb(34, 34, 63);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cst{
+  display: ;
+}
+
+
