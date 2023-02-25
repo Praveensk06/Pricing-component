@@ -5,7 +5,7 @@ const dollarEl = document.querySelector('.dollar');
 const rangeEl = document.querySelector('.range');
 const yearBillEl = document.querySelector('.checkbox');
 
-const startBtnEl = document.querySelector('.btn');
+// const startBtnEl = document.querySelector('.btn');
 
 
 
@@ -23,6 +23,7 @@ let yearly = false;
   rangeEl.addEventListener('input', function(){
     updateValue();
     pageViewEl.innerText = pageViews[rangeEl.value];
+    
     dollarEl.innerText = perMonth[rangeEl.value];
   
   })
